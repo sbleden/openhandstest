@@ -33,4 +33,5 @@ jobs:
         with:
           folder: dist/snake-game
           branch: main
+          target-folder: .
           token: ${{ secrets.GITHUB_TOKEN }}
